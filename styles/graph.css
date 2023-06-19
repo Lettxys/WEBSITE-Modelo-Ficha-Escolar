@@ -1,0 +1,37 @@
+.custom-icon {
+    color: #4caf50;
+    font-size: 30px;
+}
+
+.card.card-border-left {
+    border-left: 0.25rem solid #4caf50 !important;
+    border-radius: 0.35rem;
+}
+
+.card-title {
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.custom-title {
+    font-style: 1.75rem;
+}
+#btnTop{
+    position: fixed;
+    bottom: 15px;
+    right: 30px;
+    height: 50px;
+    width: 50px;
+    background: #38bc34;
+    border: none;
+    border-radius: 100%;
+    display: none;
+    color: #ffffff;
+    font-size: 32px;
+  
+  
+  }
+  #btnTop img{
+    width: 25px;
+  }
+  

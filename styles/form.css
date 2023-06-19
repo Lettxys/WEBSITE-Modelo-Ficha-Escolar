@@ -1,0 +1,66 @@
+:root {
+  --text-color: #007E33;
+  --text-secondary: #6c757d;
+}
+
+.container {
+  border-left: 0.25rem solid #4caf50 !important;
+  border: 0.35rem;
+}
+
+.order-form-container {
+  padding: 1.5rem;
+}
+
+
+
+.order-form-container .form-floating > label {
+  left: 1em;
+}
+
+/* Adicione uma classe personalizada ao seu elemento label */
+.label-zoom-fix {
+  white-space: nowrap; /* Impede que o conteúdo da label seja quebrado em várias linhas */
+}
+
+/* Selecione o elemento pai do seu input para aplicar regras de posicionamento */
+.parent-element {
+  position: relative; /* Certifique-se de que o elemento pai tenha uma posição definida */
+}
+
+/* Posicione a label adequadamente no elemento pai */
+.parent-element .label-zoom-fix {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none; /* Evita que a label seja clicada ou interaja com o usuário */
+  transform: translateY(-50%); /* Ajuste verticalmente a posição da label conforme necessário */
+}
+
+/* Ajuste o padding ou margem do input para evitar que o texto seja cortado */
+.parent-element input {
+  padding-left: 120px; /* Ajuste o valor conforme necessário para criar espaço suficiente para a label */
+}
+
+.order-form-container input:focus {
+  border-color: var(--text-color);
+}
+
+#btnTop{
+  position: fixed;
+  bottom: 15px;
+  right: 30px;
+  height: 50px;
+  width: 50px;
+  background: #38bc34;
+  border: none;
+  border-radius: 100%;
+  display: none;
+  color: #ffffff;
+  font-size: 29px;
+
+
+}
+#btnTop img{
+  width: 25px;
+}

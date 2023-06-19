@@ -1,0 +1,15 @@
+{
+    "name": "robert/pdfphp",
+    "autoload": {
+        "psr-4": {
+            "Robert\\Pdfphp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "RobertMiguel",
+            "email": "robertresende9@gmail.com"
+        }
+    ],
+    "require": {}
+}

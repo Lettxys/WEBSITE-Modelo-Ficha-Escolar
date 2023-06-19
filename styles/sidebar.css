@@ -1,0 +1,36 @@
+.modal {
+    width: 300px;
+}
+
+.modal-content {
+    width: 300px;
+}
+
+.list-group-item:hover {
+    background-color: rgba(59, 57, 57, 0.164) !important;
+}
+
+.custom-padding-left {
+    padding-left: 10px;
+}
+
+.nav-border-bottom {
+    background: url(../assets/base-ondas.svg) no-repeat -50px bottom !important;
+    border-bottom: 5px solid #00bd19;
+}
+
+.icon-color {
+    color: #4caf50;
+}
+
+img {
+    width: 10rem;
+    height: auto;
+}
+
+.profile-image {
+    width: 80px;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+}

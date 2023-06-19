@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.container-main-menu {
+    border-bottom: 5px solid #00bd19;
+    box-shadow: 0px 5px 25px 0px rgb( 0 0 0 / 50%);
+    overflow: visible !important;
+    background: url(../img/base-ondas.svg) no-repeat -50px bottom !important;
+    height: 100px;
+    background-size: cover;
+    display: flex;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.col-0 h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #00A84A;
+}
+
+.col-3 h3 {
+    color: #00A84A;
+}
+
+.col-0 img {
+    width: 180px;
+    height: 75px;
+}
+
+.area-formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario {
+    width: 350px;
+    /*Largura*/
+    height: 400px;
+    /*Altura*/
+    padding: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.formulario input {
+    margin-top: 10px;
+    border: none;
+    height: 45px;
+    outline: none;
+    border-radius: 15px;
+    /*Relação as bordas*/
+    border-bottom: 2px solid rgb(16, 15, 15);
+    color: #1d1d1f;
+    padding-left: 10px;
+    display: flex;
+}
+
+input::placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    color: rgba(42, 42, 42, 0.5);
+    display: flex;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+    display: flex;
+}
+
+form [type="submit"] {
+    background: #00853B;
+    border-radius: 10px;
+    border: none;
+    color: #3b3939;
+    width: 50%;
+    height: 40px;
+    font-size: 15px;
+    display: flex;
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 24px;
+    color: #000000;
+    padding-top: 10px;
+    display: flex;
+}
+
+.submit {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+footer img {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    overflow: visible !important;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}
+
+#nu {
+    color: #000000;
+}
